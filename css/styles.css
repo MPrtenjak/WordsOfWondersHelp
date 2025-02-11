@@ -1,0 +1,18 @@
+/* Add your custom styles here */
+body {
+    padding-top: 10px;
+}
+
+.table th, .table td {
+    padding: 0.25rem;
+    text-align: center;
+}
+
+.table {
+    width: auto;
+    table-layout: auto;
+    /*    
+    table-layout: fixed;
+    width: 100%;
+    */
+}

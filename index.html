@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1 id="title"></h1>
+            <div class="form-group mb-2">
+                <label for="language" class="sr-only"></label>
+                <select class="form-control" id="language">
+                    <!-- Options will be populated dynamically -->
+                </select>
+            </div>
+        </div>
+
+        <form id="searchForm" class="form-inline">
+            <div class="form-group mb-2 mr-2">
+                <label for="characters" class="sr-only"></label>
+                <input type="text" class="form-control" id="characters" placeholder="">
+            </div>
+            <div class="form-group mb-2 mr-2">
+                <label for="requiredCharacters" class="sr-only"></label>
+                <input type="text" class="form-control" id="requiredCharacters" placeholder="">
+            </div>
+            <div class="form-group mb-2 mr-2">
+                <label for="wordLength" class="sr-only"></label>
+                <select class="form-control" id="wordLength">
+                    <!-- Options from 3 to 12 -->
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+            </div>
+            <button type="button" class="btn btn-primary mb-2 w-100" id="searchButton"></button>
+        </form>
+        <table class="table mt-4">
+            <thead id="tableHeader">
+                <!-- Headers will be appended here -->
+            </thead>
+            <tbody id="resultsTable">
+            <tbody id="resultsTable">
+                <!-- Results will be appended here -->
+            </tbody>
+        </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/constants.js"></script>
+    <script src="js/wordUtils.js"></script>
+    <script src="js/tableUtils.js"></script>
+    <script src="js/languageUtils.js"></script>
+    <script src="js/localizationUtils.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

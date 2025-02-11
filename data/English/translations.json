@@ -1,0 +1,8 @@
+{
+    "title": "Search for words",
+    "languageLabel": "Language:",
+    "charactersPlaceholder": "Characters",
+    "requiredCharactersPlaceholder": "Mandatory characters",
+    "wordLengthLabel": "Length of a word:",
+    "searchButton": "Search"
+}
